@@ -1,7 +1,4 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Signin from "../Pages/Signin";
-import Dashboard from "../Pages/Dashboard";
-import PrivateRoute from "./PrivateRoute";
 import NotFound from "../Pages/Error/NotFound";
 import Main from "@src/Members/MDK/Main";
 import KingDetail from "@src/Members/MDK/Rooms/King/KingDetail";

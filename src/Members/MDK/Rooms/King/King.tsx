@@ -48,7 +48,7 @@ const King: React.FC = () => {
       </Col>
       {grid_view ? (
         <>
-          {rooms.map((room, index) => (
+          {rooms.map((room) => (
             <Col
               style={{
                 flex: "0 0 20%",
@@ -79,7 +79,7 @@ const King: React.FC = () => {
         </>
       ) : (
         <>
-          {rooms.map((room, index) => (
+          {rooms.map((room) => (
             <Col
               style={{
                 flex: "0 0 100%",

@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { InputRef, Table, TablePaginationConfig } from "antd";
+import React, { useState, useEffect } from "react";
+import { Table } from "antd";
 import { Input as MyAntdInput } from "antd";
 import { db } from "@src/firebase";
 import { collection, onSnapshot, query, where } from "firebase/firestore";

@@ -51,7 +51,7 @@ const Standard: React.FC = () => {
       {/* Ràng buộc hiển thị grid/list view */}
       {grid_view ? (
         <>
-          {rooms.map((room, index) => {
+          {rooms.map((room) => {
             const displayBadge = room.notify === true;
             return (
               <Col style={{ flex: "0 0 20%" }} span={5} key={room.id}>
@@ -111,7 +111,7 @@ const Standard: React.FC = () => {
         </>
       ) : (
         <>
-          {rooms.map((room, index) => {
+          {rooms.map((room) => {
             const displayBadge = room.notify === true;
             return (
               <Col

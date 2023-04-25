@@ -67,7 +67,7 @@ const Double: React.FC = () => {
       {/* Ràng buộc grid view */}
       {grid_view ? (
         <>
-          {rooms.map((room, index) => {
+          {rooms.map((room) => {
             const displayRemind = room.remind === true;
             // Ràng buộc remind
             return (
@@ -131,7 +131,7 @@ const Double: React.FC = () => {
         </>
       ) : (
         <>
-          {rooms.map((room, index) => {
+          {rooms.map((room) => {
             const displayRemind = room.remind === true;
             // Ràng buộc remind
             return (
